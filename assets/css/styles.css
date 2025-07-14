@@ -1,0 +1,33 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #e0e7ff 0%, #fff 100%);
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #181a1b !important;
+  color: #f1f1f1 !important;
+}
+body.dark-mode .bg-white {
+  background-color: #23272b !important;
+  color: #f1f1f1 !important;
+}
+body.dark-mode .navbar, body.dark-mode .footer {
+  background-color: #23272b !important;
+  color: #f1f1f1 !important;
+}
+body.dark-mode .card {
+  background-color: #23272b !important;
+  color: #f1f1f1 !important;
+}
+body.dark-mode .btn-outline-secondary {
+  color: #f1f1f1;
+  border-color: #f1f1f1;
+}
+body.dark-mode .btn-outline-secondary:hover {
+  background: #f1f1f1;
+  color: #23272b;
+} 
