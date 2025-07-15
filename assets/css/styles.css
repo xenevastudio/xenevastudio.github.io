@@ -182,3 +182,82 @@ body {
   font-size: 1em;
   text-shadow: 0 0 4px #ffeb3b;
 } 
+
+@media (max-width: 768px) {
+  .arcade-title {
+    font-size: 1.3em;
+    padding: 0.3em 0.1em;
+  }
+  .arcade-highlight-title {
+    font-size: 1.1em;
+    padding: 0.2em 0.1em;
+  }
+  .arcade-btn {
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    margin: 0.2em 0;
+    width: 100%;
+    display: block;
+  }
+  .arcade-desc, .arcade-motto, .arcade-highlight-desc, .arcade-stat-label {
+    font-size: 0.95em;
+  }
+  .arcade-stat {
+    font-size: 1.2em;
+    padding: 0.1em 0.2em;
+  }
+  .arcade-highlight-section {
+    padding: 0.5em 0.2em !important;
+  }
+  .carousel-inner {
+    max-width: 100% !important;
+  }
+  .carousel-inner img {
+    max-width: 100%;
+    height: auto;
+  }
+  .row.align-items-center.p-4 {
+    padding: 1em 0.2em !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .arcade-title {
+    font-size: 1em;
+  }
+  .arcade-highlight-title {
+    font-size: 0.95em;
+  }
+  .arcade-btn {
+    font-size: 0.8em;
+    padding: 0.4em 0.5em;
+  }
+  .arcade-stat {
+    font-size: 1em;
+  }
+}
+
+.arcade-highlight-section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card {
+  min-width: 0;
+  word-break: break-word;
+}
+
+img, .img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container, .container-md {
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+} 
